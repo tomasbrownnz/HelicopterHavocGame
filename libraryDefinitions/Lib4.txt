@@ -1,0 +1,14 @@
+-View-
+Handles one of two views, depending on the current state of the game.
+Displays the Main Menu when the game is first started up and when esc is pressed. Displays the Game View when the game is active.
+
+-GameView Class-
+Represents the main view of the game where the player, enemies, powerups etc. are drawn.
+
+-MainMenu Class-
+Represents the Main Menu from where the player can start a new game, save the current game, load a previous saved game, display high scores, display credits.
+
+
+Primary Author - Jack Mills-Williams
+Code Reviewer - Antonio Cacciamani
+External Tester - David Epps

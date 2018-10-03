@@ -1,0 +1,19 @@
+-Draw-
+An interface that specifies the behaviour of a general Drawing class, this interface will be implemented by each of the four following Drawing classes:
+
+-UFODraw-
+The drawing class for the UFO Game Object, this class will implement the Draw class and override its method, it will also import the GameObject class from the model package to handle each object.
+
+-SkyscraperDraw-
+The drawing class for the Skyscraper Game Object, this class will implement the Draw class and override its method, it will also import the GameObject class from the model package to handle each object.
+
+-PlayerDraw-
+The drawing class for the Player Game Object, this class will implement the Draw class and override its method, it will also import the GameObject class from the model package to handle each object.
+
+-PowerUpDraw-
+The drawing class for the PowerUp Game Object, this class will implement the Draw class and override its method, it will also import the GameObject class from the model package to handle each object.
+
+
+Primary Author - Tomas Brown
+Code Reviewer - Jack Mills-Williams
+External Tester - Antonio Cacciamani

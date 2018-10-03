@@ -1,0 +1,69 @@
+	------
+Class Allocations
+	------
+
+KEY:
+	## - Package
+	* - Class
+	1 - Primary Author
+	2 - Code Reviewer
+	3 - External Tester 
+
+## Main (creates a new MainMenu object)
+	*Main (Group 1)
+
+## Model
+	*Game (Group 1)
+	*(Interface) Strategy (Group 2)
+		*(Abstract) Collision (Group 2)
+			*GameObject (Group 2)
+				*Player (Group 3)
+				*UFO (Group 3)
+				*Skyscraper (Group 3)
+				*PowerUp (Group 3)
+				*missile (group 3)
+
+## View
+	*View (If paused draws MainMenu, otherwise GameView) (Group 4)
+	*MainMenu (Group 4)
+	*GameView (Group 4)
+	*(Interface) Drawing Class (Group 5)
+		*UFODraw (Group 5)
+		*SkyscraperDraw (Group 5)
+		*PlayerDraw (Group 5)
+		*PowerUpDraw (Group 5)
+		
+## Resources
+ 	*ImgResources (Enum of all images in game) (Group 5)
+
+## Controller
+	*Controller - Calls Player.accelarateUp() and accelarateDown() and Pauses when ESC is pressed (extends KeyListener) (Group 2)
+	
+	
+ALLCOCATIONS
+	
+Group 1
+	Primary Author - Ben
+	Code Reviewer - Tom
+	External Tester  - Jack
+	
+Group 2
+	Primary Author - David
+	Code Reviewer - Ben
+	External Tester  - Tom
+	
+Group 3
+	Primary Author - Antonio
+	Code Reviewer - David
+	External Tester  - Ben
+	
+Group 4
+	Primary Author - Jack
+	Code Reviewer - Antonio
+	External Tester  - David
+	
+Group 5
+	Primary Author - Tom
+	Code Reviewer - Jack
+	External Tester  - Antonio
+	

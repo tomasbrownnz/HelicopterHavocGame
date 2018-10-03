@@ -1,0 +1,7 @@
+-Game-
+Represents the ‘Model’ part of the Model-View-Controller pattern. The Game class stores all of the information about the game state and calls the relevant methods in the GamObject classes when needed to perform an operation.
+
+
+Primary Author - Benjamin Klapaukh
+Code Reviewer - Tomas Brown
+External Tester - Jack Mills-Williams

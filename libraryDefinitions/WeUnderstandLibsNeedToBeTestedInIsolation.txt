@@ -1,0 +1,6 @@
+-Controller-
+The Controller part of the Model-View-Controller pattern. Calls the appropriate method in the Game class when the user presses on an arrow key.
+
+Primary Author - David Epps
+Code Reviewer - Benjamin Klapaukh
+External Tester - Tomas Brown

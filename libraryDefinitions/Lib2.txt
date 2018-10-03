@@ -1,0 +1,20 @@
+-Strategy <<Interface>>-
+Follows a strategy pattern, delineates how to handle a collision to two different strategies. PowerUpStrategy and DeathStrategy.
+
+-PowerUpStrategy-
+Implements Strategy. Handles the case when the player collides with a power up by applying the power up bonus.
+
+-DeathStrategy-
+Implements Strategy. Handles the case when the player collides with a object such as a skyscraper, UFO or missile by taking away a life from the player and restarting the game from the last checkpoint if the player still has lives. If the player has no lives left, the game is stopped and an end game screen is showed.
+
+
+-Collision<<Abstract>>-
+Detects if an object collides with the a player then calls the relevant strategy. 
+
+-GameObject <<Abstract>>-
+Extends Collision. GameObject is the Abstract class that all of the game objects (Player, PowerUp, Skyscraper, UFO, KamikazeUFO and Missile) extend.
+
+ 
+Primary Author - David Epps
+Code Reviewer - Benjamin Klapaukh
+External Tester - Tomas Brown

@@ -1,0 +1,24 @@
+The following classes are the objects that appear in the game. They all extend GameObject.
+
+-Player-
+Object representing the player, that the player is in control of
+
+-PowerUp-
+Object that adds a positive effect to the player i.e Extra Life (when you crash you start from the last checkpoint),Slow Down Time, Faster Vertical Accelaration etc.
+
+-Skyscraper-
+Obstacle for the player to hit protruding from the bottom of the screen.
+    
+-UFO-
+Obstacle that appears in the middle of the screen that can shoot lasers at in a single direction that player must avoid. 
+
+-KamikazeUFO-
+Object that will track the player's y coordinates before traveling along the x axis, then after a set countdown launch in along the x axis at the player, which has the chance to avoid it.
+
+-Missile-
+Object that will track the player's y coordinates while traveling along the x axis, then at a set distance from player, tracking will disable and missile will travel in the direction it was last facing until it leaves the viewable area so that the player must avoid.
+
+
+Primary Author - Antonio Cacciamani
+Code Reviewer - David Epps
+External Tester - Benjamin Klapaukh

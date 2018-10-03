@@ -1,0 +1,6 @@
+-ImgResources-
+Creates an enum for each sprite or picture the program will be using, this class will be in its own package with each of the PNG files that the program will be using.
+
+Primary Author - Tomas Brown
+Code Reviewer - Jack Mills-Williams
+External Tester - Antonio Cacciamani
